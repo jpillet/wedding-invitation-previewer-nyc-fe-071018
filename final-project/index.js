@@ -8,7 +8,7 @@ document.querySelector(".reactive").addEventListener('click', () => {
 
 document.querySelector(".deactive").addEventListener('click', () => {
   document.getElementById('invitation').classList.add("invitation3");
-};
+});
 
 
 $(":text")

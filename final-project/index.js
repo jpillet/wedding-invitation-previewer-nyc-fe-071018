@@ -12,5 +12,5 @@ document.querySelector(".deactive").addEventListener('click', () => {
 
 
 $(":text")
-element.addEventListener("keydown", function(event.data));
+element.addEventListener("keydown", function event.data);
 

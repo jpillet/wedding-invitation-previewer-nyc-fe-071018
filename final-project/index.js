@@ -12,4 +12,5 @@ document.querySelector(".deactive").addEventListener('click', () => {
 
 var x = document.getElementById("firstname").value
 $(":text")
-element.addEventListener("keydown", function(){ ); });
+element.addEventListener("keydown", function();
+

@@ -1,0 +1,114 @@
+ul {
+    list-style-type: upper-roman;
+    margin: 20px;
+    overflow: hidden;
+   }
+
+li {
+    border-left:10px;
+    border-right:0 solid #bbb;
+}
+
+li:last-child {
+    border-right: 5px;
+}
+
+li a {
+    flex: 1;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 70px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.active {
+  width: 200px;
+  height: 50px;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 14pt;
+  text-align: center;
+  
+    background-color: #4CAF50;
+}
+.reactive {
+  width: 200px;
+  height: 50px;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 14pt;
+  text-align: center;
+    background-color: blue;
+}
+.deactive {
+  width: 200px;
+  height: 50px;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 14pt;
+  text-align: center;
+  background-color: teal;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: yellow;
+}
+
+div {
+    border-radius: 0px;
+    background-color: black;
+    padding: 10px 100px;
+}
+
+body {background-color: black;}
+h1 {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+.grid-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.invitation {background-image:url(https://c.pxhere.com/photos/5e/6a/paper_texture_brown_raw_light_brush_book_blank-650841.jpg!d);
+
+ }
+.invitation2 {background-image:url(https://www.publicdomainpictures.net/pictures/90000/velka/dahlia-flowers-invitation-card.jpg);
+
+ }
+ .invitation3 {background-image:url(http://reignnj.com/wp-content/uploads/2018/05/Blank-wedding-invitation-templates-to-inspire-you-on-how-to-make-your-wedding-1.jpg);
+
+ }
+ .flex-container 
+ { display: flex;
+   flex-direction: column;
+ }
+
